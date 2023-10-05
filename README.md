@@ -35,4 +35,4 @@ For this dataset, there were 8523 rows and 12 columns.
   <img src = "https://github.com/Al-Tayeb96/Prediction-of-Product-Sales/blob/main/hist_out_salse.PNG">
 </p>
 
-This histogram shows that the majority of the sales are decreasing if the price of sales is high"exponential decay curve"
+This histogram shows that the majority of the sales are decreasing if the price of sales high"exponential decay curve" and the highest majority of  sales prices in range 0-2000 
