@@ -17,7 +17,7 @@ For this dataset, there were 8523 rows and 12 columns.
 
 <p align = "center"> 
   
-  <img src = "">
+  <img src = "https://github.com/Al-Tayeb96/Prediction-of-Product-Sales/blob/main/Capture.PNG">
   
 </p>
 
