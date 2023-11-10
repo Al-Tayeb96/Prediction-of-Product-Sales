@@ -71,6 +71,57 @@ the most products is :
 
 -for  Grocery is breakfast
 
+ ### Maching Learning Using the Following Models:
+
+    - Linear Regression Model
+    - Random Forest Regressor Model
+    - Tuned Random Forest Regressor Model
+    
+ ## Models Evaluated & Results
+- Linear Regression Model (Testing Set):
+    - MAE = 805.116
+    - MSE = 1,197,969.401
+    - RMSE = 1,094.518
+    - R^2 = 0.566
+- Random Forest Regressor Model (Testing Set):
+    - MAE = 795.514
+    - MSE = 1,311,943.814
+    - RMSE = 1,145.401
+    - R^2 = 0.524
+- Tuned Random Forest Regressor Model (Testing Set):
+    - MAE = 728.593
+    - MSE = 1,096,529.829
+    - RMSE = 1,047.153
+    - R^2 = 0.603
+
+- The Final Model Chosen was a `Random Forest Regressor Model` with the n_estimators tuned to 500 and max depth= 5 .
+- For the testing set on the model, `60.3%` of the variance in y was explained by x. 
+- The Mean Absolute Error was off by about `$728.593`.
+- The Mean Squared Error was `$1,096,529.829`.
+- The Root Mean Squared Error had a calculation of `$1,047.153`.
+
+
+Using this model to make predictions about the rate of salse for any big market would not be a very reliable but there is still some room for improvement, especially considering the MAE, MSE, and RMSE values . or we should take care on data it self.
+
+## Recommendations
+
+this data of big market need an update to make this model improved 
+if we notic there is a convergence between metrics model so i thenk this is an limitations in predction .
+
+Overall, the best model is definitely the tuned Random Forest Regressor Model. There was still some bias in the model, but by far it outperformed the linear regression model.
+
+
+## Limitations & Next Steps
+From here, a student or any data scientist at BigMart use the insights from the visuals on how the sales of each product at a particular outlet wuold be. 
+
+
+## For Further Information
+
+For any additional questions, please contact: 
+- AL-tayeb Abu-Alfayaa. (Data Science student)
+- taib_17@hotmail.com
+
+
 
  
 
